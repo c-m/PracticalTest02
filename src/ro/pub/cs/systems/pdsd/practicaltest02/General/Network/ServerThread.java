@@ -50,6 +50,10 @@ public class ServerThread extends Thread {
     public synchronized void setData(String key, String value) {
         this.data.put(key, value);
     }
+    
+    public synchronized void removeData(String key) {
+    	this.data.remove(key);
+    }
 
     public synchronized HashMap<String, String> getData() {
         return data;
