@@ -1,7 +1,5 @@
 package ro.pub.cs.systems.pdsd.practicaltest02.General.Network;
 
-package ro.pub.cs.systems.eim.practicaltest02.network;
-
 import android.util.Log;
 
 import org.apache.http.client.ClientProtocolException;
